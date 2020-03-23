@@ -62,9 +62,9 @@ i18next.use(window.i18nextBrowserLanguageDetector).init(
           feature_5_title: "Payment integration",
           feature_5_text:
             "Visitors can purchase the items with highly secure in-app payments.",
-          feature_6_title: "Door-to-door delivery",
+          feature_6_title: "Pickup & delivery",
           feature_6_text:
-            "We will pick up and deliver the item from your store to the customer while taking all the necessary precautions related to the COVID-19 epidemic.",
+            "We will pick up and deliver the item from your store to the customer.",
           meet: "Meet",
           meet_text:
             "We started as an entry in Lithuania's #HackTheCrisis hackathon and are continuing from there. Watch out short pitch to learn more.",
@@ -100,7 +100,7 @@ i18next.use(window.i18nextBrowserLanguageDetector).init(
             "Apmeklētāji varēs iegādāties preces uzreiz no aplikācijas ar drošiem maksājumiem.",
           feature_6_title: "Preču piegāde no durvīm līdz durvīm",
           feature_6_text:
-            "Mēs nodrošināsim preču savākšanu no veikala un piegādi līdz klientam, ievērojot visas sanitārās prasības, kas saistītas ar COVID-19 epidēmiju.",
+            "Mēs nodrošināsim preču savākšanu no veikala un piegādi līdz klientam.",
           meet: "Iepazīsties ar",
           meet_text:
             "Mēs sākām darbu kā dalībnieki Lietuvas #HackTheCrisis hakatonā un aktīvi turpinām to. Apskati mūsu video pieteikumu, lai uzzinātu vairāk.",
@@ -111,44 +111,48 @@ i18next.use(window.i18nextBrowserLanguageDetector).init(
           footer_copyright: "&copy; 2020 pard"
         }
       },
-      lt: {
+      
+   lt: {
         translation: {
-          intro_title: "Marketplace for the 21st century",
+          intro_title: "Prekyvietė karantino laikotarpiu",
           intro_text:
-            "We are the newest, friendliest and easiest to use local market app currently being developed. Sign up to receive early access.",
-          learn_more: "Learn more",
-          early_access: "Early access",
-          features_title: "Exciting features",
-          feature_1_title: "Starter kit for going online",
+            "Hack-The-Crisis” (nulaužkime krizę) projekto dalyviai #pard.app ir VšĮ „Versli Lietuva“, Jos iniciatyva „Internete karantino nėra“ jungiasi bendrajam produktui - internetinės parduotuvių platformos, skirtos greitai ir patogiai susikurti savo profilį ir pradėti prekybą internete! Jūsų lauks netoliese esantys mažieji ir vidutinio dydžio verslai, norintys parduoti savo produktą!" 
+
+Plačiau: https://www.vz.lt/smulkusis-verslas/2020/03/23/smulkieji-jau-gali-registruoti-e-parduotuves-internete-karantino-nera-neturintiems-ju-pades#ixzz6HVyfdu8X ",
+          learn_more: "Sužinoti daugiau",
+          early_access: "Noriu registruotis",
+          features_title: "Esančios funkcijos",
+          feature_1_title: "Į prekybą - iš karto",
           feature_1_text:
-            "It takes one minute to register for our app and start selling products. It's that easy.",
-          feature_2_title: "No paperwork",
+            "Užtenka minutės susikurti savo profilį šioje parduotuvėje, paprasta, kaip užsiregistruoti socialinėje platformoje",
+          feature_2_title: "Jokio papildomo popierizmo",
           feature_2_text:
-            "We handle all the legal stuff so you don't have to, including privacy policy and terms of use.",
-          feature_3_title: "Add listings and manage stock",
+            "Pradėkite parduotuve naudotis iš karto, tiesiog privalote laikytis visų LR reikalavimų verslui šio karantino metu",
+          feature_3_title: "Pridėti prekes ir tvarkyti sandėlį",
           feature_3_text:
-            "Easily add listings in the app with your phone's camera — take a picture, add details and post.",
-          feature_4_title: "Attract new customers",
+            "Lengvai pridėkite prekes - nufotografuokite jas telefonu ir aprašykite, matysite užsakymus, vartotojai - sandėlio likutį",
+          feature_4_title: "Pritraukite naujų lankytojų",
           feature_4_text:
-            "Visitors can browse through all the listings and make orders directly in the marketplace.",
-          feature_5_title: "Payment integration",
+            "Lankytojai naršo po parduotuvių profilius, ir gali daryti užsakymus tiesiai svetainėje.",
+          feature_5_title: "Mokėjimas",
           feature_5_text:
-            "Visitors can purchase the items with highly secure in-app payments.",
-          feature_6_title: "Pickup & delivery",
+            "Lankytojai gali daryti mokėjimus tiesiai svetainėje.",
+          feature_6_title: "Prekių išdavimas ir pristatymas",
           feature_6_text:
-            "We will pick up and deliver the item from your store to the customer.",
-          meet: "Meet",
+            "Žmonės galės atvykti sanitariškai atsiimti prekių, o jūs galėsite rinktis iš pristatymo galimybių",
+          meet: "Susipažinkime",
           meet_text:
-            "We started as an entry in Lithuania's #HackTheCrisis hackathon and are continuing from there. Watch out short pitch to learn more.",
-          cta_title: "Sign up for early access",
+            "Mes pradėjome kaip Hack-The-Crisis dalyviai, lauždami krizės kodą sukūrėme ir prisistatymą, peržiūrėkite video!",
+          cta_title: "Domina? Registruokitės",
           cta_text:
-            "The app is currently in active development and is available for early adopters. Sign up for our mailing list and be the first to try it.",
-          sign_up: "Sign up",
+            "Aplikacija šiuo metu kuriama, ir norintiems verslams siūlome kurtis profilius! Užsiregistruokite į mūsų susisiekimo paštą ir būkite pirmieji produkto naudotojai.",
+          sign_up: "Registruotis",
           footer_copyright: "&copy; 2020 pard"
         }
       }
     }
   },
+
   function(err, t) {
     // initialized and ready to go!
     updateContent([
